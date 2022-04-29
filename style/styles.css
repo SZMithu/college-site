@@ -22,7 +22,7 @@ body {
     top: 0;
     left: 0;
 }
-/* Header-section */
+/* Navbar-section */
 
 .img-fluid {
     width: 50px;
@@ -70,7 +70,7 @@ body {
      color: #666;
  }
  .dropdown-menu .dropdown-item:hover {
-     color: #333;
+     color: #333 !important;
  }
 
 /* End-Header-section */
@@ -125,7 +125,7 @@ body {
     content: "";
     position: absolute;
     width: 100%;
-    height: 80%;
+    height: 78%;
     background-color: rgba(2, 2, 2, 0.8);
    
 }
@@ -143,7 +143,7 @@ body {
     letter-spacing: 2px; 
     font-size: 1em;
     font-weight: normal;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     color: #fff;
     
 }
@@ -162,7 +162,7 @@ body {
     overflow: hidden;
    
 }
-.speech .container .row .col .speech_p p {
+.speech .container .row .col p {
     line-height: 2rem;
 }
 .hr_dot {
@@ -196,6 +196,12 @@ body {
 @media (max-width:1010px) {
     .college_title {
         font-size: 16px;
+    }
+    
+}
+@media (max-width:991px) {
+    .anthem_section::before {
+        height: 120%;
     }
     
 }
