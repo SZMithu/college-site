@@ -12,14 +12,21 @@
   <!-- Bootstrap Css -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="./style/awlCarousel.min.css">
+  <link rel="stylesheet" href="./style/awlThemeDefault.css">
+
+  <!-- magnific popup css file -->
+  <link rel="stylesheet" href="./style/magnificPopup.css">
   <!-- Custom Css -->
   <link rel="stylesheet" href="./style/styles.css">
 </head>
 
 <body>
 <!--Start Navbar section -->
-<div class="container-fluid bg-success">
-  <nav class="navbar navbar-expand-lg navbar-light">
+<div class="container-fluid bg-success header">
+  <nav class="navbar navbar-expand-lg navbar-light" id="myDIV">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img class="img-fluid" src="./images/logo.jpg" alt="College Logo"><span
           class="fw-bold ms-3 college_title">হাজী জমির উদ্দীন শাফিনা মহিলা ডিগ্রী কলেজ</span> </a>
@@ -30,7 +37,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
           <li class="nav-item pe-2">
-            <a class="nav-link active hvr-underline-from-left text-white" aria-current="page" href="index.html">HOME</a>
+            <a class="nav-link hvr-underline-from-left text-white" aria-current="page" href="index.html">HOME</a>
           </li>
           <li class="nav-item pe-2">
             <a class="nav-link hvr-underline-from-left text-white" href="about.html">ABUOT</a>
@@ -86,7 +93,7 @@
   </div>
 </div>
 
-<!-- Carousel section -->
+<!--Start Carousel section -->
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -191,10 +198,10 @@
 <!-- End National Anthem & Rono Songit Section-->
 
 
-<!-- Speech-Section -->
+<!--Start Speech-Section -->
 <section class="speech bg-primary">
      <div class="container">
-        <div class="row">
+        <div class="row py-4">
           <div class="col col-md-6 py-3">
             <div class=" card bg-dark text-white p-2">
               <div class="president_column ">
@@ -241,11 +248,126 @@
 </section>
 <!-- End-Speech-Section -->
 
-<section class="gallery">
-  <div class="container">
-    
-  </div>
+<!--Start Gallery Section -->
+<section class="gallery about-area bg-secondary">
+  <h2 class="text-center pt-5">Gallery of Memories</h2>
+  <hr class="hr_dot">
+     <div class="container carousel py-lg-5">
+        <div class="owl-carousel owl-theme">
+          <div class="client row">
+            <div class="col-md-12 client-img">
+              <a class="popup-link" href="./images/Gallery/012 lab.jpg"><img src="./images//Gallery/012 lab.jpg" alt="img1" class="img-fluid"></a>
+            </div>
+          </div>
+          <div class="client row">
+              <div class="col-md-12 client-img">
+                <a class="popup-link" href="./images/Gallery/112.JPG"><img src="./images/Gallery/112.JPG" alt="img1" class="img-fluid"></a> 
+              </div>
+          </div>
+          <div class="client row">
+              <div class="col-md-12 client-img">
+                <a href="./images/Gallery/212.jpg" class="popup-link"><img src="./images/Gallery/212.jpg" alt="img1" class="img-fluid"></a> 
+              </div>
+          </div>
+          <div class="client row">
+                <div class="col-md-12 client-img">
+                  <a href="./images/Gallery/bus.JPG" class="popup-link"><img src="./images/Gallery/bus.JPG" alt="img1" class="img-fluid"></a> 
+                </div>
+          </div>
+          <div class="client row">
+              <div class="col-md-12 client-img">
+                <a href="./images/Gallery/College main gat.jpg" class="popup-link"><img src="./images/Gallery/College main gat.jpg" alt="img1" class="img-fluid"></a> 
+              </div>
+          </div>
+          <div class="client row">
+                <div class="col-md-12 client-img">
+                  <a href="./images/Gallery/DSC_0033.JPG" class="popup-link"><img src="./images/Gallery/DSC_0033.JPG" alt="img1" class="img-fluid"></a> 
+                </div>
+          </div>
+          <div class="client row">
+              <div class="col-md-12 client-img">
+                <a href="./images/Gallery/DSC_8808.JPG" class="popup-link"><img src="./images/Gallery/DSC_8808.JPG" alt="img1" class="img-fluid"></a>
+               </div>
+          </div>
+          <div class="client row">
+              <div class="col-md-12 client-img">
+               <a href="./images/Gallery/DSC_8943.jpg" class="popup-link"><img src="./images/Gallery/DSC_8943.jpg" alt="img1" class="img-fluid"></a>  
+              </div>
+         </div>
+         <div class="client row">
+              <div class="col-md-12 client-img">
+               <a href="./images/Gallery/DSC_8947.jpg" class="popup-link"><img src="./images/Gallery/DSC_8947.jpg" alt="img1" class="img-fluid"></a>  
+              </div>
+         </div>
+         <div class="client row">
+              <div class="col-md-12 client-img">
+                <a href="./images/Gallery/DSC_8957.jpg" class="popup-link"><img src="./images/Gallery/DSC_8957.jpg" alt="img1" class="img-fluid"></a> 
+              </div>
+         </div> 
+         <div class="client row">
+              <div class="col-md-12 client-img">
+                <a href="./images/Gallery/DSC_8968.jpg" class="popup-linkk"><img src="./images/Gallery/DSC_8968.jpg" alt="img1" class="img-fluid"></a> 
+              </div>
+        </div>
+        <div class="client row">
+              <div class="col-md-12 client-img">
+                <a href="./images/Gallery/DSC_8983.jpg" class="popup-link"><img src="./images/Gallery/DSC_8983.jpg" alt="img1" class="img-fluid"></a> 
+              </div>
+        </div>
+        <div class="client row">
+            <div class="col-md-12 client-img">
+              <a href="./images/Gallery/DSC_9093.JPG" class="popup-link"><img src="./images/Gallery/DSC_9093.JPG" alt="img1" class="img-fluid"></a> 
+            </div>
+        </div>
+        <div class="client row">
+            <div class="col-md-12 client-img">
+              <a href="./images/Gallery/FB_IMG_1645694484093.jpg" class="popup-link"><img src="./images/Gallery/FB_IMG_1645694484093.jpg" alt="img1" class="img-fluid"></a>   
+            </div>
+        </div> 
+        <div class="client row">
+            <div class="col-md-12 client-img">
+              <a href="./images/Gallery/font gate.jpg" class="popup-link"><img src="./images/Gallery/font gate.jpg" alt="img1" class="img-fluid"></a> 
+            </div>
+        </div>
+        <div class="client row">
+            <div class="col-md-12 client-img">
+              <a href="./images/Gallery/IMG_0740.JPG" class="popup-link"><img src="./images/Gallery/IMG_0740.JPG" alt="img1" class="img-fluid"></a> 
+            </div>
+        </div>
+        <div class="client row">
+            <div class="col-md-12 client-img">
+              <a href="./images/Gallery/IMG_20220224_020841.jpg" class="popup-link"><img src="./images/Gallery/IMG_20220224_020841.jpg" alt="img1" class="img-fluid"></a> 
+            </div>
+        </div>
+        <div class="client row">
+            <div class="col-md-12 client-img">
+              <a href="./images/Gallery/lab.jpg" class="popup-link"><img src="./images/Gallery/lab.jpg" alt="img1" class="img-fluid"></a> 
+            </div>
+        </div> 
+        <div class="client row">
+            <div class="col-md-12 client-img">
+              <a href="./images/Gallery/জাতীয় শোক দিবসে র‌্যালি.jpg" class="popup-link"><img src="./images/Gallery/জাতীয় শোক দিবসে র‌্যালি.jpg" alt="img1" class="img-fluid"></a>        
+            </div>
+        </div>
+        <div class="client row">
+            <div class="col-md-12 client-img">
+              <a href="./images/Gallery/র‌্যগডে উদযাপন.jpg" class="popup-link"><img src="./images/Gallery/র‌্যগডে উদযাপন.jpg" alt="img1" class="img-fluid"></a>  
+            </div>
+        </div>
+        <div class="client row">
+            <div class="col-md-12 client-img">
+               <a href="./images/Gallery/শোক দিবস পালন.jpg" class="popup-link"><img src="./images/Gallery/শোক দিবস পালন.jpg" alt="img1" class="img-fluid"></a>    
+            </div>
+        </div>
+        <div class="client row">
+            <div class="col-md-12 client-img">
+              <a href="./images/Gallery/২১এ ফেব্রুয়ারী শহীদ মিনারে ফুল প্রদান.jpg" class="popup-link"><img src="./images/Gallery/২১এ ফেব্রুয়ারী শহীদ মিনারে ফুল প্রদান.jpg" alt="img1" class="img-fluid"></a>  
+            </div>
+        </div> 
+      </div>
+   </div>
 </section>
+<!-- End Gallery Section -->
 
 <!--Start Footer Section -->
 <section id="footer" class="bg-dark">
@@ -324,10 +446,24 @@
 
 
 <!-- JavaScript Bundle with Popper -->
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Isotop js -->
+<script src="./js-file/isotop.pkgd.min.js"></script>
+
+<!-- Magnific popup script file -->
+<script src="./js-file/jquery.magnific-popup.min.js"></script>
+
+<!-- Owl carousal js file -->
+<script src="./js-file/owl.carousel.min.js"></script>
+
+<!-- Custom js -->
+<script src="./js-file/script.js"></script>
 </body>
 
 </html>
