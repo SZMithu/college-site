@@ -2,7 +2,7 @@
 
 $( document ).ready(function() {
   
- $('.project_area .item-menu .li-group #li1').trigger("click");  
+  
 
 
  $('.gallery .carousel .owl-carousel .client .client-img .popup-link').magnificPopup({
@@ -42,14 +42,43 @@ if($('.header').length){
 }
 } 
 navbarFixed();
-
 });
+ 
+const anthemCols = document.querySelectorAll('.anthem_section .container .row .col')
 
+  window.addEventListener('scroll', showCol)
 
+  showCol()
 
+  function showCol() {
+      const trigerPoint = window.innerHeight / 5 * 3
+      anthemCols.forEach(anthemCol => {
+          const colTop = anthemCol.getBoundingClientRect().top
 
+          if(colTop < trigerPoint){
+              anthemCol.classList.add('divein')
+          }else{
+              anthemCol.classList.remove('divein')
+          }
+      })
+  }
 
+  const boxs = document.querySelectorAll('.speech .container .row .col')
 
+  window.addEventListener('scroll', showBox)
 
-  
+  showBox()
 
+  function showBox() {
+      const trigerPoint = window.innerHeight / 5 * 3
+      boxs.forEach(box => {
+          const boxTop = box.getBoundingClientRect().top
+
+          if(boxTop < trigerPoint){
+              box.classList.add('divein')
+          }else{
+              box.classList.remove('divein')
+          }
+      })
+  }
+    
