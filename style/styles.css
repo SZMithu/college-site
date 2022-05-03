@@ -208,33 +208,7 @@ body {
   }
   /*End Speech Section */
 
-/* hsc.html page Start */
-#hscPage {
-    font-family: 'AponaLohit', sans-serif;
-    color: #555;
-}
-#hscPage table {
-    background-color: var(--logoBlue);
-    margin-top: 15px;
-    margin-bottom: 3rem;
-    border: 2px solid #000;
-    width: 100%;
-}
-#hscPage table .tableHead {
-    text-align: center;
-    background: linear-gradient(#0d69b9, #8547fe);
-    color: #eee;
-    caption-side: top;
-}
-#hscPage table tr td {
-    border: 2px solid #999;
-    padding: 10px;
-    text-align: center;
-    font-size: 1.2rem;
-    color: #333;
-}
 
-/* hsc.html page  End*/
 /* Start Gallery Section */
 .gallery h2 {
     font-family: 'Knewave', cursive;
