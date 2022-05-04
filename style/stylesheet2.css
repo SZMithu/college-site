@@ -81,7 +81,7 @@ table.newspaper-n {
 
 /*start About logo page*/
 
-.logo .container .logoIdentity {
+.aboutLogoDec .logo .logoIdentity {
     background-color: #f3efef;
     border: 2px solid rgb(95, 88, 88);
     border-radius: 15px;
@@ -89,13 +89,13 @@ table.newspaper-n {
      
    
 }
-  .logoIdentity .alignleft img {
+.aboutLogoDec .logoIdentity .alignleft img {
     width: 100%;
     border-radius: 15px;
     max-width: 400px;
 }
-.logo .container .logoIdentity .row .logoText {
-    line-height: 2em;
+.aboutLogoDec .logo .logoIdentity .row .logoText {
+    line-height: 1.2em;
     display: flex;
     align-items: center;
     justify-content: center;

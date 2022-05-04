@@ -7,6 +7,7 @@
     --logoBlue: #0d69b9;
     --logoViolet: #8547fe;
     --main_color: #17c76f;
+    --shadow:  5px 10px 30px rgba(57, 56, 61, 0.205);
 }
 
 *{
@@ -126,9 +127,7 @@ body {
 /*End-Carousel-section  */
 
 /*Start-Anthem-section  */
-/* .anthem_section {
-    background-image: linear-gradient(rgba(0, 0, 255, 0.7), rgba(255, 255, 0, 0.7));
-} */
+
 .anthem_section .container{
     background-image: url("../images/logo.jpg");
     background-repeat: no-repeat;
@@ -150,7 +149,6 @@ body {
 }
 
 .anthem_section .title {
-    /* font-size: 3rem; */
     color: #fff;
 }
 .anthem_section .container .row .col:first-of-type {
@@ -241,8 +239,28 @@ body {
     width: 12px;
     height: 12px;
 }
-/*Start Gallery Section */
-  /* Footer Section*/
+/*End Gallery Section */
+
+  /* Service section */
+.service .container .row .col-10 .card {
+      height: 30rem;
+  }
+.service .container .row .col-10 .card .card-body {
+    height: 50%;
+    overflow: hidden;
+}
+.service .container .row .col-10 .card:hover{
+    box-shadow: var(--shadow);
+    transition: all .6s ease;
+    filter: brightness(1.1);
+    cursor: pointer;
+    height: 100%;
+} 
+.service .card{
+    transition: all .6s ease;
+}
+
+/* Footer Section*/
 .use_hover:hover{
     text-decoration: underline !important;
     text-decoration-color: var(--main_color) !important;
