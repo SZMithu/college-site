@@ -15,10 +15,12 @@ if($('#includedHeader').length){
     if(scroll >= nav_offset_top){
       $('#includedHeader .header').addClass('fixed_nav');
        $('.logo').addClass('fixed');
+       $('.logo_div').addClass('display');
       $('.notice').css('margin-top', '420' + "px");
     }else{
       $('#includedHeader .header').removeClass('fixed_nav');
        $('.logo').removeClass('fixed');
+       $('.logo_div').removeClass('display');
       $('.notice').css('margin-top', '0' + "px");
     }
   })
