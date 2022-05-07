@@ -53,7 +53,7 @@ responsive:{
 
 });
  
-const anthemCols = document.querySelectorAll('.anthem_section .container .row .col')
+const anthemCols = document.querySelectorAll('.anthem_section .container .row .col-12')
 
   window.addEventListener('scroll', showCol)
 
@@ -72,7 +72,7 @@ const anthemCols = document.querySelectorAll('.anthem_section .container .row .c
       })
   }
 
-  const boxs = document.querySelectorAll('.speech .container .row .col')
+  const boxs = document.querySelectorAll('.speech .container .row .col-12')
 
   window.addEventListener('scroll', showBox)
 

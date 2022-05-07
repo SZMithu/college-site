@@ -108,8 +108,7 @@ body {
 }
 
 @media (max-width:992px) {
-    
-    .display {
+     .display {
         display: flex;
         justify-content: space-around;
     }
@@ -120,9 +119,7 @@ body {
     }
 }
 @media (max-width:767px) {
-   
-   
-    .national_flag .flag {
+   .national_flag .flag {
         width: 40%;
     }
 }
@@ -196,11 +193,11 @@ body {
 .anthem_section .title {
     color: #fff;
 }
-.anthem_section .container .row .col:first-of-type {
+.anthem_section .container .row .col-12:first-of-type {
     transform: translateX(-300%);
     transition: all 0.8s ease;
 }
-.anthem_section .container .row .col:last-of-type {
+.anthem_section .container .row .col-12:last-of-type {
     transform: translateX(300%);
     transition: all 0.8s ease;
 }
@@ -231,19 +228,19 @@ body {
     
 }
 
-.speech .container .row .col .speech_p {
+.speech .container .row .col-12 .speech_p {
     height: 150px;
     overflow: hidden;
    
 }
-.speech .container .row .col p {
+.speech .container .row .col-12 p {
     line-height: 2rem;
 }
-.speech .container .row .col:first-of-type {
+.speech .container .row .col-12:first-of-type {
     transform: translateX(-300%);
     transition: all 0.8s ease; 
 }
-.speech .container .row .col:last-of-type {
+.speech .container .row .col-12:last-of-type {
     transform: translateX(300%);
     transition: all 0.8s ease;
 }
@@ -257,6 +254,11 @@ body {
     border-top: 8px dotted #cfd6d6 !important;
     margin: auto;
     width: 8% !important;
+  }
+  @media (max-width:992px) {
+    .speech .container .row .president_column img, .principle_column img {
+        width: 150px;
+    }
   }
   /*End Speech Section */
 
@@ -313,13 +315,40 @@ body {
 .service .card{
     transition: all .6s ease;
 }
+/* End Service section */
+/* Start Notice Page */
+.noticeAll .sironam {
+    position: relative;
+    line-height:2.5rem;
+}
+.noticeAll .sironam::before {
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 90%;
+    height: 3px;
+    background-color: var(--logoGold);
+}
+/* End Notice Page */
 
+/* Start Contact Page */
+
+.contact .card img:hover {
+    cursor: pointer;
+    transform: scale(0.98);
+    transition: all 0.3s ease;
+}
+.contact .card img {
+    transition: all 0.3s ease;
+}
+
+/* End Contact Page */
 /* Footer Section*/
 .use_hover:hover{
     text-decoration: underline !important;
     text-decoration-color: var(--main_color) !important;
     text-decoration-style: unset;
-    text-decoration-thickness: 2px;
     
 }
 .point:hover{
