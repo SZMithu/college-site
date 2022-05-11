@@ -24,16 +24,11 @@ body {
     font-family: "Noto Sans Bengali", sans-serif;
 }
 
-.national_flag .flag {
-    width: 300px;
-    position:absolute;
-    top: 0;
-    left: 0;
-}
+
 /* Navbar-section */
 
 .img-fluid {
-    width: 120px;
+    width: 80px;
     border-radius: 15px;
 }
 .college_title {
@@ -88,35 +83,23 @@ body {
  .dropdown-menu .dropdown-item:hover {
      color: #333 !important;
  }
- .fixed_nav{
-    position: fixed;
+ 
+
+.header .container-fluid {
+    display: flex;
     width: 100%;
-    top: 0px;
-    left: 0;
-    right: 0;
+    justify-content: center;
     background-color:inherit;
     box-shadow: 0px 10px 30px rgba(57, 56, 61, .7);
-    z-index: 999;
-    transition: all 1s ease; 
-  
-}
-.fixed {
     position: fixed;
-    top: 10px;
-    left: calc(100-10%+10px);
-    width: 100px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: all 1s ease;
 }
 
 @media (max-width:992px) {
-     .display {
-        display: flex;
-        justify-content: space-around;
-    }
-    .fixed {
-        width: 75px;
-        position: static;
-
-    }
+    
 }
 @media (max-width:767px) {
    .national_flag .flag {
@@ -126,6 +109,9 @@ body {
 /* End-Header-section */
 
 /* Notice-section */
+.notice {
+    margin-top: 115px;
+}
 .notice_div {
     background-color: var(--logoGold);
     padding:0 3rem;
@@ -163,9 +149,19 @@ body {
 
 
 /*Carousel-section  */
+
 .carousel-item {
     height: 70%;
 }
+.ml2 {
+    font-weight: 500;
+    font-size: 2em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
 /*End-Carousel-section  */
 
 /*Start-Anthem-section  */
@@ -299,22 +295,58 @@ body {
 
   /* Service section */
 .service .container .row .col-10 .card {
-      height: 30rem;
+      height: 25rem;
   }
-.service .container .row .col-10 .card .card-body {
-    height: 50%;
-    overflow: hidden;
-}
+
 .service .container .row .col-10 .card:hover{
     box-shadow: var(--shadow);
     transition: all .6s ease;
     filter: brightness(1.1);
     cursor: pointer;
-    height: 100%;
 } 
 .service .card{
     transition: all .6s ease;
 }
+.hvr-radial-out {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    background: #e1e1e1;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+  }
+  .hvr-radial-out:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--main_color);
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
+    color: white;
+  }
+  .hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+  }
 /* End Service section */
 /* Start Notice Page */
 .noticeAll .sironam {
