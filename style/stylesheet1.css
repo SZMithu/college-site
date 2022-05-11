@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1.heading {
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+    background: linear-gradient(#49dbee, #08a5a5);
+    padding: 12px 20px;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    
+  }
+  
+  body {
+    font-family: "Noto Sans Bengali", sans-serif;
+  }
+  
+  /* .table_responsive {
+    max-width: 900px;
+    border: 1px solid skyblue;
+    background-color: #efefef;
+    padding: 15px;
+    margin: auto;
+    border-radius: 4px;
+  } */
+  
+  table {
+    width: 100%;
+    font-size: 15px;
+    color: #444;
+    white-space: nowrap;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  .tableHead {
+    text-align: center;
+    background: linear-gradient(#49dbee, #08a5a5);
+    color: #eee;
+    caption-side: top;
+}
+  table > thead {
+    background-color: #00bcd4;
+    color: #fff;
+  }
+  
+  table > thead th {
+    padding: 15px;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #00000017;
+    padding: 10px 15px;
+  }
+  
+  table > tbody > tr > td > img {
+    display: inline-block;
+    max-width: 80px;
+    height: auto;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 6px #0003;
+  }
+  
+  table > tbody > tr {
+    background-color: #fff;
+    transition: 0.2s ease-in-out;
+  }
+  
+  table > tbody > tr:nth-child(even) {
+    background-color: rgb(238, 238, 238);
+  }
+  
+  table > tbody > tr:hover {
+    filter: drop-shadow(0px 2px 3px #0002);
+  }
+  

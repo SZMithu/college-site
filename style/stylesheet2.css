@@ -1,0 +1,109 @@
+.sectionHeadContentArea {
+    width: 100%;
+    height: auto;
+    margin: 5px auto 5px;
+    padding-left: 3px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(#49dbee, #08a5a5);
+    
+  }
+  .sectionHeadContentArea h1 {
+    padding-bottom: 5px;
+
+}
+
+table, td, th {
+    vertical-align: middle;
+}
+
+table.newspaper-n {
+    border-collapse: separate;
+    border-right: 1px solid #878787;
+    border-spacing: 0;
+    border-top: 1px solid #878787;
+    color: #5680AA;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.newspaper-n tr {
+	height: 50px;
+}
+
+.newspaper-n th {
+    background-color: #003366;
+    color: #FFFFFF;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.newspaper-n td {
+    border-left: 1px solid #878787;
+    border-top: medium none #878787;
+    color: #000;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+}
+
+.newspaper-n td, th {
+    border-bottom: 1px solid #878787;
+}
+
+.newspaper-n .trLight {
+    	background-color: #ABF5EF;
+	line-height: 1.5em;
+}
+
+.newspaper-n .trDeep {
+    background-color: #ECF3F8;
+}
+
+.newspaper-n tr:hover {
+    background-color: #DDD;
+}
+
+.pf-content ul li {
+	margin-left: 20px;
+	line-height: 1.8em;
+}
+
+.pf-content > h1, h2, h3, h4, h5, h6 {
+	display:block;
+	font-weight: bold;
+	font-size: normal;
+}
+
+/*end At a glance page*/
+
+/*start About logo page*/
+
+.aboutLogoDec .logo .logoIdentity {
+    background-color: #f3efef;
+    border: 2px solid rgb(95, 88, 88);
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px #999;
+     
+   
+}
+.aboutLogoDec .logoIdentity .alignleft img {
+    width: 100%;
+    border-radius: 15px;
+    max-width: 400px;
+}
+.aboutLogoDec .logo .logoIdentity .row .logoText {
+    line-height: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+}
+
+  /* Rule and regulation */
+
+ .p_text{
+     color: #fff;
+ }
