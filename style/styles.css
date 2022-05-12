@@ -233,15 +233,18 @@ body {
     line-height: 2rem;
 }
 .speech .container .row .col-12:first-of-type {
-    transform: translateX(-300%);
-    transition: all 0.8s ease; 
+    transform: translateX(-25%);
+    opacity: 0;
+    transition: all 1.2s ease; 
 }
 .speech .container .row .col-12:last-of-type {
-    transform: translateX(300%);
-    transition: all 0.8s ease;
+    transform: translateX(25%);
+    opacity: 0;
+    transition: all 1.2s ease;
 }
 .divein {
     transform: translateX(0) !important;
+    opacity: 1 !important;
 }
 
 .hr_dot {
@@ -295,7 +298,7 @@ body {
 
   /* Service section */
 .service .container .row .col-10 .card {
-      height: 25rem;
+      height: 20rem;
   }
 
 .service .container .row .col-10 .card:hover{
@@ -348,6 +351,12 @@ body {
     transform: scale(2);
   }
 /* End Service section */
+
+/*Start Google Map  Section */
+.map {
+    border-top: 5px solid rgba(100, 100, 255, 0.5);
+}
+/*End Google Map  Section */
 /* Start Notice Page */
 .noticeAll .sironam {
     position: relative;

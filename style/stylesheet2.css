@@ -1,18 +1,10 @@
-.sectionHeadContentArea {
-    width: 100%;
-    height: auto;
-    margin: 5px auto 5px;
-    padding-left: 3px;
-    border-radius: 3px;
+.sectionHeadContentArea { 
     color: #fff;
     text-align: center;
     background: linear-gradient(#49dbee, #08a5a5);
     
   }
-  .sectionHeadContentArea h1 {
-    padding-bottom: 5px;
 
-}
 
 table, td, th {
     vertical-align: middle;
@@ -79,31 +71,3 @@ table.newspaper-n {
 
 /*end At a glance page*/
 
-/*start About logo page*/
-
-.aboutLogoDec .logo .logoIdentity {
-    background-color: #f3efef;
-    border: 2px solid rgb(95, 88, 88);
-    border-radius: 15px;
-    box-shadow: 15px 15px 15px #999;
-     
-   
-}
-.aboutLogoDec .logoIdentity .alignleft img {
-    width: 100%;
-    border-radius: 15px;
-    max-width: 400px;
-}
-.aboutLogoDec .logo .logoIdentity .row .logoText {
-    line-height: 1.2em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #555;
-}
-
-  /* Rule and regulation */
-
- .p_text{
-     color: #fff;
- }
