@@ -56,7 +56,7 @@ anime.timeline({loop: true})
   });
 
 
-const anthemCols = document.querySelectorAll('.anthem_section .container .row .col-12')
+const anthemCols = document.querySelectorAll('.anthem_section .container .row .col-12, .speech .container .row .col-12, .gallery .title, .gallery .container, .service .hide, .map')
 
   window.addEventListener('scroll', showCol,)
 
@@ -75,19 +75,21 @@ const anthemCols = document.querySelectorAll('.anthem_section .container .row .c
       })
   }
 
-  const boxs = document.querySelectorAll('.speech .container .row .col-12')
-  window.addEventListener('scroll', showBox,)
-  showBox()
-  function showBox() {
-      const trigerPoint = window.innerHeight / 5 * 3
-      boxs.forEach(box => {
-          const boxTop = box.getBoundingClientRect().top
 
-          if(boxTop < trigerPoint){
-              box.classList.add('divein')
-          }else{
-              box.classList.remove('divein')
-          }
-      })
-  }
+
+  // const boxs = document.querySelectorAll('.speech .container .row .col-12')
+  // window.addEventListener('scroll', showBox,)
+  // showBox()
+  // function showBox() {
+  //     const trigerPoint = window.innerHeight / 5 * 3
+  //     boxs.forEach(box => {
+  //         const boxTop = box.getBoundingClientRect().top
+
+  //         if(boxTop < trigerPoint){
+  //             box.classList.add('divein')
+  //         }else{
+  //             box.classList.remove('divein')
+  //         }
+  //     })
+  // }
     
