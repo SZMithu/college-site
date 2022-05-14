@@ -10,6 +10,9 @@
     --main_color: #17c76f;
     --shadow:  5px 10px 30px rgba(57, 56, 61, 0.205);
 }
+.bodyGradient {
+    background: lightblue;
+}
 
 *{
     padding: 0;
@@ -29,7 +32,6 @@ body {
 
 .img-fluid {
     width: 60px;
-    border-radius: 20px;
 }
 .college_title {
     color: var(--logoGold);
@@ -190,12 +192,17 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    position: relative;   
+    position: relative; 
+      
+}
+.anthem_section .container .row {
+     box-sizing: border-box;
 }
 .anthem_section .container .row::before {
     content: "";
     position: absolute;
-    width: 100%;
+    width: 98.2%;
+    margin-left: 12px;
     height: 100%;
     background-color: rgba(2, 2, 2, 0.8);
 }
@@ -416,19 +423,7 @@ body {
 }
 /* End Notice Page */
 
-/* Start Contact Page */
 
-.contact .card img:hover {
-    cursor: pointer;
-    transform: scale(0.98);
-    transition: all 0.3s ease;
-}
-.contact .card img {
-    transition: all 0.3s ease;
-}
-
-/* End Contact Page */
-/* Footer Section*/
 #footer {
     position: relative;
     opacity: 0.9;
@@ -495,4 +490,69 @@ body {
     }
 }
 
+/* start Principle Page */
+.bg-light {
+    background: linear-gradient(to right, #b4e4f8, #f6fcfe);
+    border-top: 7px solid #00a2e8;
+}
+.namecolumn {
+    background: linear-gradient(to right bottom, #c2e9f9, #d6f0fb);
+    box-shadow: 5px 10px 15px #999;
+    width: 100%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:992px) {
+    .namecolumn {
+        max-width: 100%;
+        height: 25em; 
+    }
+}
+.namecolumn h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #444;
+}
+.namecolumn button {
+  background:    #6fa8dc;
+  background:    linear-gradient(#3b67bb, #6fa8dc 50%, #3b67bb);
+  border: 0;
+  border-radius: 3px;
+  box-shadow:    0 10px 15px rgb(103, 141, 184);
+  padding:       18px 25px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 14px/1 "Roboto", sans-serif;
+  text-align:    center;
+  margin-top: 25px;
+}
+.backdiv {
+    background: linear-gradient(to right top, #539ed7, #a2cceb);
+    width: 100%;
+    height: 95%;
+    box-shadow: 5px 5px 15px #999;
+    position: relative;
+}
+.Principal_image {
+    width: 90%;
+    height: 100%;
+   transform: translateY(-110%) translateX(5%);
+}
 
+/* End Principle Page */
+
+/* Start Contact Page */
+
+.contact .card img:hover {
+    cursor: pointer;
+    transform: scale(0.98);
+    transition: all 0.3s ease;
+}
+.contact .card img {
+    transition: all 0.3s ease;
+}
+
+/* End Contact Page */
+/* Footer Section*/
